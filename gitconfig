@@ -1,0 +1,6 @@
+[user]
+	name = Sam Crang
+	email = sam.crang@gmail.com
+
+[core]
+	excludesfile = ~/.gitignore
