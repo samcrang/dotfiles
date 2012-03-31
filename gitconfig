@@ -3,4 +3,4 @@
 	email = sam.crang@gmail.com
 
 [core]
-	excludesfile = ~/.gitignore
+	excludesfiles = ~/.gitignore
