@@ -37,6 +37,10 @@ source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
 export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
+
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
 # If it's available, alias `vim` as `mvim -v`. This makes sure that we'll be using
 # MacVim in a terminal mode if we call `vim` rather than the (old) system version. 
 #
