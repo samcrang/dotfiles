@@ -4,9 +4,16 @@ My dotfiles. Probably nothing exciting.
 
 ## Installation
 
+Update the git submodules:
+
+```bash
+git submodule init
+git submodule update
+```
+
 To link the files in the repository to those in your home directory, do something like this:
 
-```sh
+```bash
 ln -nfs path/to/dotfiles/zshrc .zshrc
 ```
 
