@@ -9,6 +9,11 @@ syntax enable
 set background=dark
 colorscheme solarized
 
+" filetype detection
+filetype on
+filetype indent on
+filetype plugin on
+
 " enable line numbers
 set number
 
@@ -42,4 +47,7 @@ set visualbell
 set nobackup
 set nowritebackup
 set noswapfile
+
+" enable compiler support for ruby
+autocmd FileType ruby compiler ruby
 
