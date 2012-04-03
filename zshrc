@@ -40,13 +40,12 @@ export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
 # set up EDITOR
 export EDITOR=vim
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 # If it's available, alias `vim` as `mvim -v`. This makes sure that we'll be using
 # MacVim in a terminal mode if we call `vim` rather than the (old) system version. 
 #
 # http://stackoverflow.com/questions/592620/check-if-a-program-exists-from-a-bash-script
 type mvim >/dev/null 2>&1 && alias vim="mvim -v"
  
+# rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
