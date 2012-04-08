@@ -35,7 +35,7 @@ plugins=(git osx brew rvm bundler)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin
+export PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/sbin
 
 # set up EDITOR
 export EDITOR=vim
@@ -49,7 +49,4 @@ type mvim >/dev/null 2>&1 && alias vim="mvim -v"
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 [[ -s $HOME/.rbenv/bin ]] && eval "$(rbenv init -)"
-
-# configure PATH
-export PATH="/usr/local/sbin:$PATH"
 
