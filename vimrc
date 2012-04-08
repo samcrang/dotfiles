@@ -2,7 +2,8 @@
 set nocompatible
 
 " load pathogen
-call pathogen#infect()
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
 " enable syntax highlighting
 syntax enable
