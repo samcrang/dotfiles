@@ -49,3 +49,7 @@ type mvim >/dev/null 2>&1 && alias vim="mvim -v"
 # rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 [[ -s $HOME/.rbenv/bin ]] && eval "$(rbenv init -)"
+
+# configure PATH
+export PATH="/usr/local/sbin:$PATH"
+
