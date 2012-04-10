@@ -1,6 +1,6 @@
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-ZSH_CUSTOM=`readlink $ZSH`/../oh-my-zsh-custom
+ZSH_CUSTOM=$HOME/`readlink $ZSH`/../oh-my-zsh-custom
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
