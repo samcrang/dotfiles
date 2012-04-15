@@ -1,0 +1,17 @@
+# Enable subpixel font rendering on non-Apple LCDs
+defaults write NSGlobalDomain AppleFontSmoothing -int 2
+
+# Show all filename extensions in Finder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# Show status bar in Finder
+defaults write com.apple.finder ShowStatusBar -bool true
+
+# Avoid creating .DS_Store files on network volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+
+# Show the ~/Library folder
+chflags nohidden ~/Library
+
+# Enable support for TimeMachine on non-Apple network drives
+defaults write com.apple.systempreferences TMShowUnsupportedNetworkVolumes 1
