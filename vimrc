@@ -52,3 +52,6 @@ set noswapfile
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
 
+" key remapping
+inoremap jj <ESC>
+
