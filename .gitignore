@@ -1,1 +1,3 @@
-irssi/autorun/*
+irssi/scripts/autorun/*
+irssi/sasl.auth
+
