@@ -50,3 +50,10 @@ type mvim >/dev/null 2>&1 && alias vim="mvim -v"
 export PATH="$HOME/.rbenv/bin:$PATH"
 [[ -s $HOME/.rbenv/bin ]] && eval "$(rbenv init -)"
 
+# OS-specific stuff
+case `uname` in
+  Darwin)
+    # irssi installed with homebrew doesn't install the perl libraries globally
+    export PERL5LIB="/usr/local/Library/LinkedKegs/irssi/lib/perl5/site_perl/darwin-thread-multi-2level:$PERL5LIB"
+    ;;
+esac
