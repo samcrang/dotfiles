@@ -26,3 +26,4 @@ In some way or another, I've taken inspiration from the following dotfiles of ot
 - [Mathias Bynens](http://mathiasbynens.be/) - [dotfiles](https://github.com/mathiasbynens/dotfiles)
 - [Gianni Chiappetta](http://gf3.ca/brb) - [dotfiles](https://github.com/gf3/dotfiles)
 - [Andy Stewart](http://airbladesoftware.com/) - [dotfiles](https://github.com/airblade/dotfiles), [dotvim](https://github.com/airblade/dotvim)
+- [Allen Bargi](https://github.com/aziz) - [dotfiles](https://github.com/aziz/dotfiles/)
