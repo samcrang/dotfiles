@@ -15,6 +15,9 @@ filetype on
 filetype indent on
 filetype plugin on
 
+" make backspace work
+set bs=2
+
 " enable line numbers
 set number
 
