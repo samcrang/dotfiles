@@ -57,3 +57,9 @@ case `uname` in
     export PERL5LIB="/usr/local/Library/LinkedKegs/irssi/lib/perl5/site_perl/darwin-thread-multi-2level:$PERL5LIB"
     ;;
 esac
+
+# for the benifit of tmux
+export DISABLE_AUTO_TITLE="true"
+
+# irssi
+alias remote-irssi="ssh -t troy dtach -A /tmp/$(whoami)-irssi.dtach irssi"
