@@ -1,3 +1,5 @@
+.DS_Store
+
 irssi/scripts/autorun/*.pl
 irssi/sasl.auth
 
