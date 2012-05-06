@@ -5,5 +5,5 @@ project_name: admin
 project_root: ~/
 tabs:
   - shell:
-  - troy: autossh -M 45862 troy
+  - troy: autossh -M 45862 troy -t dtach -A /tmp/$(whoami)-admin.dtach zsh 
  
