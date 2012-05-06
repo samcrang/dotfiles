@@ -2,5 +2,6 @@
 # you can make as many tabs as you wish...
 
 project_name: admin-remote
+project_root: ~/
 tabs:
   - shell: 
