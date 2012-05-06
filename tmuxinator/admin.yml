@@ -1,0 +1,9 @@
+# ~/.tmuxinator/admin.yml
+# you can make as many tabs as you wish...
+
+project_name: admin
+project_root: ~/
+tabs:
+  - shell:
+  - troy: autossh -M 45862 troy
+ 

@@ -1,0 +1,6 @@
+# ~/.tmuxinator/admin-remote.yml
+# you can make as many tabs as you wish...
+
+project_name: admin-remote
+tabs:
+  - shell: 
