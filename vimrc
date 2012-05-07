@@ -52,9 +52,14 @@ set nobackup
 set nowritebackup
 set noswapfile
 
+" search options
+set hlsearch
+set incsearch
+
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
 
 " key remapping
+let mapleader = ';'
 inoremap jj <ESC>
-
+let g:ctrlp_map = '<leader>t'
