@@ -33,7 +33,7 @@ set ruler
 " always show a status line
 set laststatus=2
 
-" show filename in title
+" show filename in title 
 set title
 
 " show the command as it's being typed
@@ -56,10 +56,15 @@ set noswapfile
 set hlsearch
 set incsearch
 
+" enable mouse support
+set mouse=a
+
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
 
 " key remapping
-let mapleader = ';'
+let mapleader = '\'
 inoremap jj <ESC>
-let g:ctrlp_map = '<leader>t'
+nnoremap <Leader>f <ESC>:NERDTreeToggle<CR>
+let g:ctrlp_map = '<Leader>t'
+
