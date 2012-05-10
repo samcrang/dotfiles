@@ -62,4 +62,7 @@ esac
 export DISABLE_AUTO_TITLE="true"
 
 # irssi
-alias remote-irssi="ssh -t troy dtach -A /tmp/$(whoami)-irssi.dtach irssi"
+alias remote-irssi="ssh -t troy dtach -A /tmp/$(whoami)-irssi.dtach -E irssi"
+
+# update
+alias update="sudo softwareupdate -i -a; brew update; brew upgrade"
