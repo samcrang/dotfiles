@@ -55,6 +55,7 @@ case `uname` in
   Darwin)
     # irssi installed with homebrew doesn't install the perl libraries globally
     export PERL5LIB="/usr/local/Library/LinkedKegs/irssi/lib/perl5/site_perl/darwin-thread-multi-2level:$PERL5LIB"
+    export PATH="$PATH:/usr/local/texlive/2011/bin/x86_64-darwin"
     ;;
 esac
 
