@@ -3,7 +3,7 @@
 	email = sam.crang@gmail.com
 
 [core]
-	excludesfiles = ~/.gitignore
+	excludesfile = ~/.gitignore
 
 [color]
 	ui = true
