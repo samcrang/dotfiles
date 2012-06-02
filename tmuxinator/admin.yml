@@ -4,6 +4,6 @@
 project_name: admin
 project_root: ~/
 tabs:
-  - shell: 
+  - local: 
   - troy: if [[ `hostname` == "troy"* ]]; then dtach -A /tmp/$(whoami)-admin.dtach zsh; else autossh -M 45863 troy -t dtach -A /tmp/$(whoami)-admin.dtach -r winch -E zsh; fi
  
