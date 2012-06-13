@@ -5,5 +5,7 @@ project_name: Daily Mail
 project_root: ~/Developer/daily-mail
 tabs:
   - vim: vim
-  - rspec: rake
+  - guard: guard
   - irb: irb
+  - shell:
+  - spork: spork
