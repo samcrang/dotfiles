@@ -1,0 +1,9 @@
+# ~/.tmuxinator/dm.yml
+# you can make as many tabs as you wish...
+
+project_name: Daily Mail 
+project_root: ~/Developer/daily-mail
+tabs:
+  - vim: vim
+  - rspec: rake
+  - irb: irb
