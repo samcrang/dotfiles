@@ -56,6 +56,10 @@ case `uname` in
     # irssi installed with homebrew doesn't install the perl libraries globally
     export PERL5LIB="/usr/local/Library/LinkedKegs/irssi/lib/perl5/site_perl/darwin-thread-multi-2level:$PERL5LIB"
     export PATH="$PATH:/usr/local/texlive/2011/bin/x86_64-darwin"
+    alias update="sudo softwareupdate -i -a; brew update; brew upgrade; date;"
+    ;;
+  FreeBSD)
+    alias update="sudo portsnap fetch update; sudo portmaster -Bda --no-confirm; sudo freshclam; sudo freebsd-update fetch; date;"
     ;;
 esac
 
@@ -63,9 +67,7 @@ esac
 alias remote-irssi="ssh -t troy dtach -A /tmp/$(whoami)-irssi.dtach -E irssi"
 
 # update
-alias update-osx="sudo softwareupdate -i -a; brew update; brew upgrade; date;"
-alias update-freebsd="sudo portsnap fetch update; sudo portmaster -Bda --no-confirm; sudo freshclam; sudo freebsd-update fetch; date;"
-alias update-ubuntu="sudo apt-get update; sudo apt-get upgrade; date;"
+#alias update-ubuntu="sudo apt-get update; sudo apt-get upgrade; date;"
 
 # serve
 alias serve="twistd -n web --path ."
