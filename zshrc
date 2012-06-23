@@ -63,9 +63,9 @@ esac
 alias remote-irssi="ssh -t troy dtach -A /tmp/$(whoami)-irssi.dtach -E irssi"
 
 # update
-alias update-osx="sudo softwareupdate -i -a; brew update; brew upgrade;"
-alias update-freebsd="sudo portsnap fetch update; sudo portmaster -Bda --no-confirm; sudo freshclam; sudo freebsd-update fetch;"
-alias update-ubuntu="sudo apt-get update; sudo apt-get upgrade;"
+alias update-osx="sudo softwareupdate -i -a; brew update; brew upgrade; date;"
+alias update-freebsd="sudo portsnap fetch update; sudo portmaster -Bda --no-confirm; sudo freshclam; sudo freebsd-update fetch; date;"
+alias update-ubuntu="sudo apt-get update; sudo apt-get upgrade; date;"
 
 # serve
 alias serve="twistd -n web --path ."
