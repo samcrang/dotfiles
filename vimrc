@@ -68,3 +68,5 @@ inoremap jj <ESC>
 nnoremap <Leader>f <ESC>:NERDTreeToggle<CR>
 let g:ctrlp_map = '<Leader>t'
 
+
+nnoremap <Leader>s <ESC>:call RelatedSpecVOpen()<CR>
