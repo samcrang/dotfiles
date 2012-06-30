@@ -1,0 +1,4 @@
+project_name: tunnels
+project_root: ~/
+tabs:
+  - troy: autossh -M 45865 troy -L 9000:troy:8080 -L 9001:troy:8081 -L 9002:troy:5000 -L 9003:127.0.0.1:8180 -N
