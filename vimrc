@@ -34,7 +34,7 @@ set ruler
 set laststatus=2
 
 " show filename in title 
-set title
+set notitle
 
 " show the command as it's being typed
 set showcmd
