@@ -8,6 +8,10 @@
 [color]
 	ui = true
 
+[diff]
+	tool = meld
+[merge]
+	tool = p4merge
+
 [push]
 	default = simple
-
