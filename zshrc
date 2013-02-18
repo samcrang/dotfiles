@@ -65,6 +65,7 @@ esac
 
 # irssi
 alias remote-irssi="ssh -t troy dtach -A /tmp/$(whoami)-irssi.dtach -E irssi"
+alias irssi-dtach="dtach -A /tmp/$(whoami)-irssi.dtach -E irssi"
 
 # update
 #alias update-ubuntu="sudo apt-get update; sudo apt-get upgrade; date;"
