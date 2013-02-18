@@ -37,6 +37,3 @@
 [submodule "vim/bundle/vim-easymotion"]
 	path = vim/bundle/vim-easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
-[submodule "vim/bundle/vim-spec-finder"]
-	path = vim/bundle/vim-spec-finder
-	url = git://github.com/skwp/vim-spec-finder.git
