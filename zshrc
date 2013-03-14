@@ -16,7 +16,7 @@ ZSH_CUSTOM=$HOME/`readlink $ZSH`/../oh-my-zsh-custom
 # CASE_SENSITIVE="true"
 
 # Comment this out to disable weekly auto-update checks
-DISABLE_AUTO_UPDATE="true"
+DISABLE_AUTO_UPDATE="false"
 
 # Uncomment following line if you want to disable colors in ls
 # DISABLE_LS_COLORS="true"
@@ -57,6 +57,8 @@ case `uname` in
     export PERL5LIB="/usr/local/Library/LinkedKegs/irssi/lib/perl5/site_perl/darwin-thread-multi-2level:$PERL5LIB"
     export PATH="$PATH:/usr/local/texlive/2011/bin/x86_64-darwin"
     export PATH="$PATH:/usr/local/share/npm/bin"
+    export PATH="$PATH:/usr/local/share/python"
+    
     alias update="sudo softwareupdate -i -a; brew update; brew upgrade; date;"
     ;;
   FreeBSD)
