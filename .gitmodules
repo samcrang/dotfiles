@@ -1,39 +1,3 @@
-[submodule "home/.vim/bundle/vim-colors-solarized"]
-	path = home/.vim/bundle/vim-colors-solarized
-	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "home/.vim/bundle/nerdtree"]
-	path = home/.vim/bundle/nerdtree
-	url = https://github.com/scrooloose/nerdtree
-[submodule "home/.vim/bundle/vim-rails"]
-	path = home/.vim/bundle/vim-rails
-	url = https://github.com/tpope/vim-rails
-[submodule "home/.vim/bundle/vim-surround"]
-	path = home/.vim/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround
-[submodule "home/.vim/bundle/vim-commentary"]
-	path = home/.vim/bundle/vim-commentary
-	url = https://github.com/tpope/vim-commentary.git
-[submodule "home/.vim/bundle/vim-repeat"]
-	path = home/.vim/bundle/vim-repeat
-	url = https://github.com/tpope/vim-repeat.git
-[submodule "home/.vim/bundle/supertab"]
-	path = home/.vim/bundle/supertab
-	url = https://github.com/ervandew/supertab
-[submodule "home/.vim/bundle/vim-fugitive"]
-	path = home/.vim/bundle/vim-fugitive
-	url = git://github.com/tpope/vim-fugitive.git
-[submodule "home/.vim/bundle/ctrlp"]
-	path = home/.vim/bundle/ctrlp
-	url = git://github.com/kien/ctrlp.vim.git
-[submodule "home/.vim/bundle/vim-markdown"]
-	path = home/.vim/bundle/vim-markdown
-	url = git://github.com/tpope/vim-markdown.git
-[submodule "home/.vim/bundle/syntastic"]
-	path = home/.vim/bundle/syntastic
-	url = git://github.com/scrooloose/syntastic.git
-[submodule "home/.vim/bundle/vim-easymotion"]
-	path = home/.vim/bundle/vim-easymotion
-	url = git://github.com/Lokaltog/vim-easymotion.git
 [submodule "home/.oh-my-zsh"]
 	path = home/.oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh.git
