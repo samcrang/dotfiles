@@ -2,28 +2,3 @@
 
 My dotfiles. Probably nothing exciting.
 
-## Installation
-
-Update the git submodules:
-
-```bash
-git submodule init
-git submodule update
-```
-
-To link the files in the repository to those in your home directory, do something like this:
-
-```bash
-ln -nfs path/to/dotfiles/zshrc .zshrc
-```
-
-I should probably write a script to automate this process--I suspect I'll just end up borrowing someone elses though.
-
-## Thanks
-
-In some way or another, I've taken inspiration from the following dotfiles of others:
-
-- [Mathias Bynens](http://mathiasbynens.be/) - [dotfiles](https://github.com/mathiasbynens/dotfiles)
-- [Gianni Chiappetta](http://gf3.ca/brb) - [dotfiles](https://github.com/gf3/dotfiles)
-- [Andy Stewart](http://airbladesoftware.com/) - [dotfiles](https://github.com/airblade/dotfiles), [dotvim](https://github.com/airblade/dotvim)
-- [Allen Bargi](https://github.com/aziz) - [dotfiles](https://github.com/aziz/dotfiles/)
