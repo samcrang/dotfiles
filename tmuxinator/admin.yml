@@ -1,9 +1,0 @@
-# ~/.tmuxinator/admin.yml
-# you can make as many tabs as you wish...
-
-project_name: admin
-project_root: ~/
-tabs:
-  - local: 
-  - troy: if [[ `hostname` == "troy"* ]]; then dtach -A /tmp/$(whoami)-admin.dtach -E zsh; else autossh -M 45863 troy -t dtach -A /tmp/$(whoami)-admin.dtach -r winch -E zsh; fi
- 
