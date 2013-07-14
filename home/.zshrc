@@ -2,7 +2,7 @@
 ZSH=$HOME/.oh-my-zsh
 
 # Override environment variables here.
-source $HOME/.env.sh
+source $HOME/.env
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
