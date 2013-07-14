@@ -13,7 +13,5 @@
 [merge]
 	tool = p4merge
 
-[push]
-	default = simple
 [branch]
 	autosetuprebase = always
