@@ -1,9 +1,6 @@
 [submodule "home/.vim/bundle/vim-colors-solarized"]
 	path = home/.vim/bundle/vim-colors-solarized
 	url = git://github.com/altercation/vim-colors-solarized.git
-[submodule "home/.oh-my-zsh"]
-	path = home/.oh-my-zsh
-	url = https://github.com/robbyrussell/oh-my-zsh.git
 [submodule "home/.vim/bundle/nerdtree"]
 	path = home/.vim/bundle/nerdtree
 	url = https://github.com/scrooloose/nerdtree
@@ -37,3 +34,6 @@
 [submodule "home/.vim/bundle/vim-easymotion"]
 	path = home/.vim/bundle/vim-easymotion
 	url = git://github.com/Lokaltog/vim-easymotion.git
+[submodule "home/.oh-my-zsh"]
+	path = home/.oh-my-zsh
+	url = https://github.com/robbyrussell/oh-my-zsh.git
