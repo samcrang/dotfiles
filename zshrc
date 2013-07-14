@@ -43,5 +43,6 @@ ZSH_THEME="robbyrussell"
 plugins=(gitfast)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.env.sh
 
 # Customize to your needs...
