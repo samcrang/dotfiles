@@ -65,7 +65,9 @@ autocmd FileType ruby compiler ruby
 " key remapping
 let mapleader = '\'
 inoremap jj <ESC>
-nnoremap <Leader>f <ESC>:NERDTreeToggle<CR>
-let g:ctrlp_map = '<Leader>t'
 
-nnoremap <Leader>s <ESC>:call RelatedSpecVOpen()<CR>
+autocmd vimenter * NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+
+let NERDTreeWinPos='right'
+let NERDTreeMinimalUI=1
