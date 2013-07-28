@@ -6,7 +6,7 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " enable syntax highlighting
-syntax enable
+syntax on 
 set background=dark
 colorscheme solarized
 
