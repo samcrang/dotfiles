@@ -66,8 +66,5 @@ autocmd FileType ruby compiler ruby
 let mapleader = '\'
 inoremap jj <ESC>
 
-autocmd vimenter * NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
-
 let NERDTreeWinPos='right'
 let NERDTreeMinimalUI=1
