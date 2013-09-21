@@ -6,7 +6,7 @@ call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
 " enable syntax highlighting
-syntax on 
+syntax on
 set background=dark
 colorscheme solarized
 
@@ -33,7 +33,7 @@ set ruler
 " always show a status line
 set laststatus=2
 
-" show filename in title 
+" show filename in title
 set notitle
 
 " show the command as it's being typed
@@ -72,3 +72,5 @@ let NERDTreeMinimalUI=1
 
 " vim-airline
 let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
+
