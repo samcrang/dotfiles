@@ -66,5 +66,9 @@ autocmd FileType ruby compiler ruby
 let mapleader = '\'
 inoremap jj <ESC>
 
+" NERDTree
 let NERDTreeWinPos='right'
 let NERDTreeMinimalUI=1
+
+" vim-airline
+let g:airline_powerline_fonts = 1
