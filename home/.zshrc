@@ -51,6 +51,6 @@ source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
 export EDITOR=vim
-
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+unsetopt HIST_VERIFY
