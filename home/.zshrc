@@ -54,3 +54,4 @@ export EDITOR=vim
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 unsetopt HIST_VERIFY
+unsetopt CORRECT_ALL
