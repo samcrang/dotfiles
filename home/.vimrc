@@ -71,4 +71,5 @@ let NERDTreeWinPos='right'
 let NERDTreeMinimalUI=1
 
 " vim-airline
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts = 0
+let g:airline_symbols = {}
