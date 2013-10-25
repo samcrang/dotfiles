@@ -58,6 +58,9 @@ set incsearch
 " enable mouse support
 set mouse=a
 
+" don't fold
+set nofoldenable
+
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
 
