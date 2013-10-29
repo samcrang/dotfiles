@@ -17,6 +17,9 @@ filetype plugin on
 " make backspace work
 set bs=2
 
+" disable mode lines
+set modelines=0
+
 " enable line numbers
 set number
 
