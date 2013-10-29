@@ -30,8 +30,12 @@ set nowritebackup
 set noswapfile
 
 " search options
+set ignorecase
+set smartcase
+set gdefault
 set hlsearch
 set incsearch
+set showmatch
 
 " tabs and spaces
 set shiftwidth=2
