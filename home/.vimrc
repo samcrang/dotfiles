@@ -9,13 +9,22 @@ syntax on
 set background=dark
 colorscheme solarized
 
+" sensible defaults
+set encoding=utf-8
+set scrolloff=5
+set autoindent
+set wildmenu
+set wildmode=list:longest
+set ttyfast
+set relativenumber
+
 " filetype detection
 filetype on
 filetype indent on
 filetype plugin on
 
 " make backspace work
-set bs=2
+set bs=indent,eol,start
 
 " disable mode lines
 set modelines=0
