@@ -4,11 +4,6 @@ set nocompatible
 " load pathogen
 call pathogen#infect()
 
-" enable syntax highlighting
-syntax on
-set background=dark
-colorscheme solarized
-
 " sensible defaults
 set encoding=utf-8
 set scrolloff=5
@@ -16,47 +11,18 @@ set autoindent
 set wildmenu
 set wildmode=list:longest
 set ttyfast
-set relativenumber
-
-" filetype detection
-filetype on
-filetype indent on
-filetype plugin on
-
-" make backspace work
 set bs=indent,eol,start
-
-" disable mode lines
+set nofoldenable
 set modelines=0
-
-" enable line numbers
 set number
-
-" highlight current line
 set cursorline
-
-" show current mode
 set showmode
-
-" show cursor position
 set ruler
-
-" always show a status line
 set laststatus=2
-
-" show filename in title
 set notitle
-
-" show the command as it's being typed
 set showcmd
-
-" tabs and spaces
-set shiftwidth=2
-set tabstop=2
-set expandtab
-
-" no beep
 set visualbell
+set mouse=a
 
 " nobackups/swap
 set nobackup
@@ -67,11 +33,20 @@ set noswapfile
 set hlsearch
 set incsearch
 
-" enable mouse support
-set mouse=a
+" tabs and spaces
+set shiftwidth=2
+set tabstop=2
+set expandtab
 
-" don't fold
-set nofoldenable
+" filetype detection
+filetype on
+filetype indent on
+filetype plugin on
+
+" syntax highlighting
+syntax on
+set background=dark
+colorscheme solarized
 
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
