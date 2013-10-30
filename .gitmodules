@@ -34,3 +34,6 @@
 [submodule "home/.vim/bundle/vim-ack"]
 	path = home/.vim/bundle/vim-ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "home/.vim/bundle/vim-bats"]
+	path = home/.vim/bundle/vim-bats
+	url = https://github.com/markcornick/vim-bats.git
