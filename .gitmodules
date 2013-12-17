@@ -37,3 +37,6 @@
 [submodule "home/.vim/bundle/vim-bats"]
 	path = home/.vim/bundle/vim-bats
 	url = https://github.com/markcornick/vim-bats.git
+[submodule "home/.vim/bundle/vim-markdown"]
+	path = home/.vim/bundle/vim-markdown
+	url = https://github.com/tpope/vim-markdown.git
