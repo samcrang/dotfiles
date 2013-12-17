@@ -53,6 +53,9 @@ syntax on
 set background=dark
 colorscheme solarized
 
+" spell checking
+set spell
+
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
 
