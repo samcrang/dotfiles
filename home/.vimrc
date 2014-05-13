@@ -75,6 +75,10 @@ let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = '|'
 
+" tagbar
+autocmd VimEnter * nested :call tagbar#autoopen(1)
+let g:tagbar_compact = 1
+
 " guff
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
