@@ -79,6 +79,9 @@ let g:airline_right_alt_sep = '|'
 autocmd VimEnter * nested :call tagbar#autoopen(1)
 let g:tagbar_compact = 1
 
+" ctrlp
+let g:ctrlp_show_hidden = 1
+
 " guff
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
