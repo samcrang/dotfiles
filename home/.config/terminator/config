@@ -19,6 +19,7 @@
     foreground_color = "#839496"
     font = Source Code Pro Medium 9
     background_color = "#002b36"
+    scrollback_infinite = True
 [layouts]
   [[default]]
     [[[child1]]]
