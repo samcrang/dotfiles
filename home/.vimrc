@@ -82,6 +82,9 @@ let g:tagbar_compact = 1
 " ctrlp
 let g:ctrlp_show_hidden = 1
 
+" python-mode
+let g:pymode_options_colorcolumn = 0
+
 " guff
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
