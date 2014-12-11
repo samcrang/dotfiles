@@ -1,0 +1,3 @@
+set tabnumbers
+set toolbars=nonavigation,nomenu,nobookmarks,tabs
+set hintchars=asdfghjkl;
