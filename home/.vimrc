@@ -72,6 +72,9 @@ set spell
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
 
+" make enter select item in popup menu
+inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
+
 " key remapping
 let mapleader = '\'
 inoremap jj <ESC>
