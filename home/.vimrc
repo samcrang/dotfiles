@@ -3,7 +3,9 @@ set nocompatible
 
 " load Vundle
 set rtp+=~/.vim/bundle/Vundle.vim
+
 call vundle#begin()
+Plugin 'gmarik/Vundle.vim'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'kien/ctrlp.vim'
@@ -11,6 +13,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 call vundle#end()
+
 filetype plugin indent on
 
 " sensible defaults
