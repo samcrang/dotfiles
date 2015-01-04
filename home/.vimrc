@@ -13,6 +13,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'tpope/vim-fugitive'
 call vundle#end()
 
 filetype plugin indent on
