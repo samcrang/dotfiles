@@ -15,6 +15,7 @@ Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
+Plugin 'fatih/vim-go'
 call vundle#end()
 
 filetype plugin indent on
