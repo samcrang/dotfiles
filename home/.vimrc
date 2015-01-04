@@ -1,8 +1,17 @@
 " do vim things
 set nocompatible
 
-" load pathogen
-call pathogen#infect()
+" load Vundle
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'altercation/vim-colors-solarized'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'kien/ctrlp.vim'
+Plugin 'mileszs/ack.vim'
+Plugin 'bling/vim-airline'
+Plugin 'scrooloose/syntastic'
+call vundle#end()
+filetype plugin indent on
 
 " sensible defaults
 set encoding=utf-8
@@ -74,10 +83,6 @@ let g:airline_left_sep = ''
 let g:airline_left_alt_sep = '|'
 let g:airline_right_sep = ''
 let g:airline_right_alt_sep = '|'
-
-" tagbar
-autocmd VimEnter * nested :call tagbar#autoopen(1)
-let g:tagbar_compact = 1
 
 " ctrlp
 let g:ctrlp_show_hidden = 1
