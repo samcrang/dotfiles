@@ -101,6 +101,12 @@ let g:ctrlp_show_hidden = 1
 " python-mode
 let g:pymode_options_colorcolumn = 0
 
+" do vim not wrong
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
 " guff
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
