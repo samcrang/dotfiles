@@ -57,3 +57,9 @@ export GOBIN=$GOPATH/bin
 
 unsetopt HIST_VERIFY
 unsetopt CORRECT_ALL
+
+case `uname` in
+  Darwin)
+    alias update="sudo softwareupdate --install --all && brew update && brew upgrade && rbenv update && rbenv install -l | grep '^  \d' | grep -ve '-dev\|-preview\|-rc' | tail -n 1 | xargs -I % bash -c 'rbenv install % 2> /dev/null; rbenv global % && rbenv rehash'"
+    ;;
+esac
