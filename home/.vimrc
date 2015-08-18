@@ -103,6 +103,9 @@ noremap <Down> <NOP>
 noremap <Left> <NOP>
 noremap <Right> <NOP>
 
+" syntastic
+let g:syntastic_python_checkers = ['python', 'pyflakes']
+
 " guff
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
