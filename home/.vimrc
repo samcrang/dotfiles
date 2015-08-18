@@ -16,7 +16,6 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'fatih/vim-go'
-Plugin 'klen/python-mode'
 call vundle#end()
 
 filetype plugin indent on
@@ -97,9 +96,6 @@ let g:airline_right_alt_sep = '|'
 
 " ctrlp
 let g:ctrlp_show_hidden = 1
-
-" python-mode
-let g:pymode_options_colorcolumn = 0
 
 " do vim not wrong
 noremap <Up> <NOP>
