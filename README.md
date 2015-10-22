@@ -7,16 +7,16 @@ YouCompleteMe
 -------------
 
 ```
-cd ~/.vim/bundle/YouCompleteMe
-./install.sh --clang-completer --omnisharp-completer
+$ cd ~/.vim/bundle/YouCompleteMe
+$ ./install.sh --clang-completer --omnisharp-completer
 ```
 
 Vundle
 ------
 
 ```
-vim +PluginInstall +qall
-vim +PluginUpdate +qall
+$ vim +PluginInstall +qall
+$ vim +PluginUpdate +qall
 ```
 
 Fonts (on Linux)
@@ -25,7 +25,7 @@ Fonts (on Linux)
 You're probably aiming for something like this:
 
 ```
-xrdb -query
+$ xrdb -query
 *customization:	-color
 Xft.antialias:	1
 Xft.autohint:	0
