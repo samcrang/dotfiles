@@ -24,7 +24,8 @@ Fonts (on Linux)
 
 You're probably aiming for something like this:
 
-```xrdb -query
+```
+xrdb -query
 *customization:	-color
 Xft.antialias:	1
 Xft.autohint:	0
