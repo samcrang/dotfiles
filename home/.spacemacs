@@ -203,6 +203,9 @@ layers configuration. You are free to put any user code."
   (setq-default
    evil-escape-key-sequence "jj"
    evil-escape-delay 0.2
+   )
+  (setq
+   powerline-default-separator nil
   ))
 
 ;; Do not write anything past this comment. This is where Emacs will
