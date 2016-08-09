@@ -1,6 +1,7 @@
 [user]
 	name = Sam Crang
 	email = sam.crang@gmail.com
+	signingkey = 63DD5A23897A062B
 
 [core]
 	excludesfile = ~/.gitignore
@@ -17,3 +18,5 @@
 	autosetuprebase = always
 [push]
 	default = simple
+[gpg]
+	program = gpg2
