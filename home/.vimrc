@@ -38,7 +38,6 @@ set laststatus=2
 set notitle
 set showcmd
 set visualbell
-set mouse=a
 set shortmess+=I
 
 " nobackups/swap
