@@ -20,3 +20,6 @@
 	default = simple
 [gpg]
 	program = gpg2
+
+[commit]
+	gpgsign = true
