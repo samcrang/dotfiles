@@ -56,6 +56,9 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export GOPATH=~/Developer/go
 export GOBIN=$GOPATH/bin
 
+# https://www.gnupg.org/documentation/manuals/gnupg/Invoking-GPG_002dAGENT.html
+export GPG_TTY=$(tty)
+
 unsetopt HIST_VERIFY
 unsetopt CORRECT_ALL
 
