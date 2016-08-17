@@ -3,7 +3,7 @@
 <plist version="1.0">
     <dict>
             <key>Label</key>
-            <string>crang.gpg-agent</string>
+            <string>uk.co.samcrang.gpg-agent</string>
             <key>ProgramArguments</key>
             <array>
                 <string>/usr/local/bin/gpg-agent</string>
