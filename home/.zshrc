@@ -56,6 +56,12 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export GOPATH=~/Developer/go
 export GOBIN=$GOPATH/bin
 
+if [ -f "${HOME}/.gpg-agent-info" ]; then
+  . "${HOME}/.gpg-agent-info"
+  export GPG_AGENT_INFO
+  export SSH_AUTH_SOCK
+fi
+
 # https://www.gnupg.org/documentation/manuals/gnupg/Invoking-GPG_002dAGENT.html
 export GPG_TTY=$(tty)
 
