@@ -55,6 +55,7 @@ export EDITOR=vim
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export GOPATH=~/Developer/go
 export GOBIN=$GOPATH/bin
+export PASSWORD_STORE_CLIP_TIME=10
 
 if [ -f "${HOME}/.gpg-agent-info" ]; then
   . "${HOME}/.gpg-agent-info"
