@@ -48,7 +48,7 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(gitfast rbenv vagrant nvm ida-hosts)
+plugins=(gitfast rbenv vagrant nvm)
 
 source $ZSH/oh-my-zsh.sh
 
