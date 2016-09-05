@@ -42,30 +42,17 @@ DISABLE_AUTO_UPDATE="true"
 # VCS as dirty. This makes repository status check for large repositories much,
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
+#
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(gitfast rbenv vagrant nvm)
+plugins=(gitfast rbenv vagrant nvm ida-hosts)
 
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export EDITOR=vim
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-export GOPATH=~/Developer/go
-export GOBIN=$GOPATH/bin
-export PASSWORD_STORE_CLIP_TIME=10
-
-if [ -f "${HOME}/.gpg-agent-info" ]; then
-  . "${HOME}/.gpg-agent-info"
-  export GPG_AGENT_INFO
-  export SSH_AUTH_SOCK
-fi
-
-# https://www.gnupg.org/documentation/manuals/gnupg/Invoking-GPG_002dAGENT.html
-export GPG_TTY=$(tty)
-
 unsetopt HIST_VERIFY
 unsetopt CORRECT_ALL
 
