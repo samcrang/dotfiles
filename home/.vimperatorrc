@@ -1,3 +1,6 @@
 set tabnumbers
 set toolbars=nonavigation,nomenu,nobookmarks,tabs
 set hintchars=asdfghjkl;
+
+noremap <C-l> gt
+noremap <C-h> gT
