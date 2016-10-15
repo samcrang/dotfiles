@@ -114,6 +114,6 @@ noremap <Right> <NOP>
 let g:syntastic_python_checkers = ['python', 'pyflakes']
 
 " guff
-if $COLORTERM == 'gnome-terminal'
+if $COLORTERM == 'gnome-terminal' || $TERM == 'screen'
   set t_Co=256
 endif
