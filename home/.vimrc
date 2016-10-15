@@ -83,6 +83,12 @@ inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 let mapleader = '\'
 inoremap jj <ESC>
 
+" split navigation
+noremap <C-h> <C-w>h
+noremap <C-j> <C-w>j
+noremap <C-k> <C-w>k
+noremap <C-l> <C-w>l
+
 " NERDTree
 let NERDTreeMinimalUI=1
 map <C-n> :NERDTreeToggle<CR>
