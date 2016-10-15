@@ -13,6 +13,7 @@ Plugin 'mileszs/ack.vim'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/syntastic'
+Plugin 'scrooloose/nerdtree'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'fatih/vim-go'
@@ -83,8 +84,8 @@ let mapleader = '\'
 inoremap jj <ESC>
 
 " NERDTree
-let NERDTreeWinPos='right'
 let NERDTreeMinimalUI=1
+map <C-n> :NERDTreeToggle<CR>
 
 " vim-airline
 let g:airline_powerline_fonts = 0
