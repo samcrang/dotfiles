@@ -53,7 +53,6 @@ set noswapfile
 " search options
 set ignorecase
 set smartcase
-set gdefault
 set hlsearch
 set incsearch
 set showmatch
