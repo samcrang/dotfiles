@@ -12,7 +12,7 @@
 [diff]
 	tool = meld
 [merge]
-	tool = p4merge
+	tool = kdiff3
 
 [branch]
 	autosetuprebase = always
