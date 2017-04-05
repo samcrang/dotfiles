@@ -10,7 +10,7 @@
 	ui = true
 
 [diff]
-	tool = meld
+	tool = vimdiff
 [merge]
 	tool = kdiff3
 
@@ -20,3 +20,5 @@
 	default = simple
 [gpg]
 	program = gpg2
+[difftool]
+	prompt = false
