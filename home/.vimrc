@@ -115,6 +115,9 @@ noremap <Right> <NOP>
 " syntastic
 let g:syntastic_python_checkers = ['python', 'pyflakes']
 
+" vim-go
+let g:go_fmt_command = "goimports"
+
 " guff
 if $COLORTERM == 'gnome-terminal' || $TERM == 'screen'
   set t_Co=256
