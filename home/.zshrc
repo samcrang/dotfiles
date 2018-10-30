@@ -52,6 +52,8 @@ plugins=(gitfast rbenv vagrant nvm)
 
 source $ZSH/oh-my-zsh.sh
 
+export PATH=~/bin:$PATH
+
 # Customize to your needs...
 unsetopt HIST_VERIFY
 unsetopt CORRECT_ALL
