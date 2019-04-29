@@ -1,3 +1,4 @@
 .config/terminator
+.config/nvim
 .gnupg
 Library/LaunchAgents

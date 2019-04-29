@@ -58,3 +58,4 @@ export PATH=~/bin:$PATH
 unsetopt HIST_VERIFY
 unsetopt CORRECT_ALL
 
+alias vim=nvim
