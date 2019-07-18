@@ -23,7 +23,6 @@ brew "jq"
 brew "kubernetes-cli"
 brew "kubernetes-helm"
 brew "lolcat"
-brew "md5sha1sum", link: false
 brew "mercurial"
 brew "mtr"
 brew "neovim"
