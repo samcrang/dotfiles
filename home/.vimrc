@@ -93,6 +93,7 @@ noremap <C-l> <C-w>l
 
 " NERDTree
 let NERDTreeMinimalUI=1
+let NERDTreeIgnore=['\.pyc$']
 map <C-n> :NERDTreeToggle<CR>
 
 " vim-airline
