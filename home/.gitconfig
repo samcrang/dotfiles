@@ -13,6 +13,7 @@
 	tool = vimdiff
 [merge]
 	tool = kdiff3
+	conflictStyle = diff3
 
 [branch]
 	autosetuprebase = always
