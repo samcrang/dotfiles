@@ -12,7 +12,7 @@
 [diff]
 	tool = vimdiff
 [merge]
-	tool = kdiff3
+	tool = p4merge
 	conflictStyle = diff3
 
 [branch]
