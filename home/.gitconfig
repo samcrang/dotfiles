@@ -25,3 +25,5 @@
 	prompt = false
 [init]
 	defaultBranch = main
+[interactive]
+	singlekey = true
