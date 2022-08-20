@@ -21,6 +21,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'fatih/vim-go'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'neovim/nvim-lspconfig'
 call vundle#end()
 
 filetype plugin indent on
