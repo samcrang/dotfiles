@@ -97,6 +97,7 @@ let NERDTreeMinimalUI=1
 let NERDTreeShowHidden=1
 let NERDTreeIgnore=['\.pyc$','^\.git$']
 map <C-n> :NERDTreeToggle<CR>
+let g:NERDTreeMinimalMenu=1 " https://github.com/preservim/nerdtree/issues/1321#issuecomment-1229071986
 
 " vim-airline
 let g:airline_powerline_fonts = 0
