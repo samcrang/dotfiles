@@ -3,6 +3,7 @@ vim.cmd([[source ~/.config/nvim/_init.vim]])
 require'lspconfig'.pyright.setup{}
 require'lspconfig'.solargraph.setup{}
 require'lspconfig'.terraformls.setup{}
+require'lspconfig'.gopls.setup{}
 
 -- Mappings.
 -- See `:help vim.diagnostic.*` for documentation on any of the below functions
@@ -50,11 +51,11 @@ require('lspconfig')['pyright'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }
-require('lspconfig')['terraformls'].setup{
+require('lspconfig')['tsserver'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }
-require('lspconfig')['tsserver'].setup{
+require('lspconfig')['gopls'].setup{
     on_attach = on_attach,
     flags = lsp_flags,
 }
