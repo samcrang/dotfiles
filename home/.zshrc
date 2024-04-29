@@ -59,3 +59,6 @@ unsetopt HIST_VERIFY
 unsetopt CORRECT_ALL
 
 alias vim=nvim
+
+source /Users/sam/.docker/init-zsh.sh || true # Added by Docker Desktop
+export PATH="/usr/local/opt/libpq/bin:$PATH"

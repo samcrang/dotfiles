@@ -14,7 +14,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/syntastic'
 Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-dispatch'
 Plugin 'tpope/vim-commentary'
@@ -79,6 +79,9 @@ set spell
 " enable compiler support for ruby
 autocmd FileType ruby compiler ruby
 
+" wat
+autocmd BufNewFile,BufRead *.tf set syntax=tf
+
 " make enter select item in popup menu
 inoremap <expr> <CR> pumvisible() ? "\<C-y>" : "\<CR>"
 
@@ -123,6 +126,6 @@ let g:syntastic_python_checkers = ['python', 'pyflakes']
 let g:go_fmt_command = "goimports"
 
 " guff
-if $COLORTERM == 'gnome-terminal' || $TERM == 'screen'
+if $COLORTERM == 'gnome-terminal' || $TERM == 'screen' || $TERM == 'screen-256color'
   set t_Co=256
 endif
