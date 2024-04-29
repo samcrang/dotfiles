@@ -104,8 +104,8 @@
   (setf (alist-get 'ruby-mode apheleia-mode-alist) '(rubocop))
   (setf (alist-get 'ruby-ts-mode apheleia-mode-alist) '(rubocop)))
 
-;; (after! vterm
-;;   (setq vterm-shell "/usr/local/bin/fish"))
+(after! vterm
+  (setq vterm-shell "/usr/local/bin/fish"))
 
 (use-package! dape
   :preface
