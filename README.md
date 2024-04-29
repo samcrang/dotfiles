@@ -7,8 +7,8 @@ Homesick
 --------
 
 ```
-homesick link
-homesick link dotfiles/{macos,linux}
+bundle exec homesick link
+bundle exec homesick link dotfiles/{macos,linux}
 ```
 
 Vundle
