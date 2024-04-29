@@ -1,3 +1,4 @@
 .config/nvim
+.config/doom
 .gnupg
 Library/LaunchAgents
