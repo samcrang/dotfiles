@@ -197,4 +197,3 @@
 ;; https://discourse.doomemacs.org/t/ssh-authentification-in-daemon-mode/2941/5
 (after! doom-cli-env
   (add-to-list 'doom-env-allow "^SSH_"))
-
