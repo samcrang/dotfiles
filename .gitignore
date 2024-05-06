@@ -1,3 +1,4 @@
 .DS_Store
 .netrwhist
 home/.vim/bundle/
+home/.config/doom/secret.el

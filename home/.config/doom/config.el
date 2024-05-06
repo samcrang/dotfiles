@@ -111,3 +111,5 @@
   :preface
   :init
   :config)
+
+(load-file (expand-file-name "~/.config/doom/secret.el"))
