@@ -30,3 +30,5 @@
 	defaultBranch = main
 [interactive]
 	singlekey = true
+[github]
+	user = samcrang
