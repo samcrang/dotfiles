@@ -112,4 +112,6 @@
   :init
   :config)
 
+(setq auth-sources '("~/.authinfo"))
+
 (load-file (expand-file-name "~/.config/doom/secret.el"))
