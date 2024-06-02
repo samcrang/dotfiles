@@ -1,4 +1,5 @@
 .DS_Store
 .netrwhist
+Brewfile.lock.json
 home/.vim/bundle/
 home/.config/doom/secret.el
