@@ -8,7 +8,7 @@
 
 ;; To install SOME-PACKAGE from MELPA, ELPA or emacsmirror:
 ;; (package! some-package)
-(package! dape :pin "94330f81eda72fb2e3c89340ce72536119da3901")
+(package! dape :pin "ae4688f59a99015a02f6a3bff599a86fef86a211")
 
 ;; To install a package directly from a remote git repo, you must specify a
 ;; `:recipe'. You'll find documentation on what `:recipe' accepts here:
