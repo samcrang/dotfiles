@@ -27,4 +27,5 @@ brew 'zsh'
 
 tap 'railwaycat/emacsmacport'
 # Afterwards: cp -a $(brew --prefix)/opt/emacs-mac/Emacs.app /Applications
-brew 'railwaycat/emacsmacport/emacs-mac', args: %w[with-modules with-native-compilation with-tree-sitter]
+brew 'railwaycat/emacsmacport/emacs-mac',
+     args: %w[with-modules with-native-compilation with-tree-sitter with-emacs-big-sur-icon]
