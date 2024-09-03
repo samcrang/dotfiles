@@ -2,3 +2,5 @@
 .config/doom
 .gnupg
 Library/LaunchAgents
+.config/nvim/lua/config
+.config/nvim/lua/plugins
