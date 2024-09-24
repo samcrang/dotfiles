@@ -4,6 +4,7 @@ return {
     filetypes = {
       go = true,
       ruby = true,
+      terraform = true,
       ["*"] = false,
     },
   },
