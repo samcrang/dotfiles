@@ -6,6 +6,7 @@ return {
     opts.mapping = vim.tbl_extend("force", opts.mapping, {
       ["<CR>"] = cmp.config.disable,
       ["<C-l>"] = LazyVim.cmp.confirm({ select = true }),
+      ["<C-CR>"] = LazyVim.cmp.confirm({ select = true }), -- requires CSI-u
       ["<C-j>"] = cmp.mapping.select_next_item({ behavior = cmp.SelectBehavior.Insert }),
       ["<C-k>"] = cmp.mapping.select_prev_item({ behavior = cmp.SelectBehavior.Insert }),
     })
