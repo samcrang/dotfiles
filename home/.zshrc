@@ -45,20 +45,24 @@ DISABLE_AUTO_UPDATE="true"
 #
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 
+# https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  autoload -Uz compinit
+  compinit
+fi
+
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git rbenv pyenv vagrant nvm)
+plugins=(git rbenv pyenv nvm)
 
 source $ZSH/oh-my-zsh.sh
-
-export PATH=~/bin:$PATH
 
 # Customize to your needs...
 unsetopt HIST_VERIFY
 unsetopt CORRECT_ALL
 
 alias vim=nvim
-
-source /Users/sam/.docker/init-zsh.sh || true # Added by Docker Desktop
-export PATH="/usr/local/opt/libpq/bin:$PATH"
