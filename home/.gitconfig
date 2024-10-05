@@ -1,7 +1,6 @@
 [user]
 	name = Sam Crang
 	email = sam.crang@gmail.com
-	signingkey = B91590AEA3A6B81BCAE99ADC1F07315057BC3A55
 
 [url "ssh://git@github.com/"]
 	insteadOf = https://github.com/
