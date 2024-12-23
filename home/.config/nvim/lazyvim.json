@@ -2,6 +2,7 @@
   "extras": [
     "lazyvim.plugins.extras.ai.copilot",
     "lazyvim.plugins.extras.ai.copilot-chat",
+    "lazyvim.plugins.extras.coding.nvim-cmp",
     "lazyvim.plugins.extras.dap.core",
     "lazyvim.plugins.extras.editor.refactoring",
     "lazyvim.plugins.extras.formatting.prettier",
