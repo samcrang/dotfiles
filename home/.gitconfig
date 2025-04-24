@@ -20,7 +20,8 @@
 [branch]
 	autosetuprebase = always
 [push]
-	default = simple
+  default = simple
+  autoSetupRemote = true
 [gpg]
 	program = gpg
 [difftool]
