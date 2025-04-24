@@ -7,6 +7,10 @@ return {
         normal = "<C-q>",
         insert = "<C-q>",
       },
+      submit_prompt = {
+        normal = "<C-CR>",
+        insert = "<C-CR>",
+      },
     },
   },
 }
