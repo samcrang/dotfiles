@@ -10,11 +10,3 @@ Homesick
 bundle exec homesick link
 bundle exec homesick link dotfiles/{macos,linux}
 ```
-
-Vundle
-------
-
-```
-$ vim +PluginInstall +qall
-$ vim +PluginUpdate +qall
-```
